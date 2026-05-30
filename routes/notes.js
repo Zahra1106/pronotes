@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth');
-const Note = require('../models/Note');
-const Folder = require('../models/Folder');
+const Note = require('../models/note');
+const Folder = require('../models/folder');
 
 // =================== NOTES ===================
 
